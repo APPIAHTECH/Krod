@@ -1,0 +1,33 @@
+{
+  "name": "krod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" :"gulp watch",
+    "prod":"gulp default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonsterKrod/Krod.git"
+  },
+  "keywords": [
+    "music",
+    "videos"
+  ],
+  "author": "Stephen Appiah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonsterKrod/Krod/issues"
+  },
+  "homepage": "https://github.com/MonsterKrod/Krod#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-postcss": "^6.4.0",
+    "gulp-uglify": "^2.1.2",
+    "pump": "^1.0.2"
+  }
+}
